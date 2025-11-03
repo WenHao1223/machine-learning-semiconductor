@@ -1,0 +1,40 @@
+# 🤖 Workshop: Introduction to Machine Learning and Its Applications in the Semiconductor Industry
+
+**Held at:** Online (via Microsoft Teams)
+**Date:** 3 November 2025
+**Instructor:** Assoc. Prof. Ts. Dr. Khaw Khai Wah
+
+## 📚 Overview
+
+This repository contains learning materials and practical exercises from a one-day online workshop introducing machine learning (ML) concepts and their applications in the semiconductor industry. Participants explored how ML models can assist in process optimization, defect prediction, and yield improvement in semiconductor manufacturing.
+
+The session emphasized hands-on experimentation using KNIME, an open-source data analytics platform that enables visual workflows for data preprocessing, model training, and performance evaluation without coding.
+
+## KNIME Workflows
+
+
+### 1. Semiconductor Workshop
+This workflow analyzes semiconductor manufacturing data, focusing on yield analysis and defect tracking. It merges data from multiple sources, performs aggregations, and creates visualizations to identify trends and issues in the production process.
+
+### 2. Charts and Spreadsheets
+This workflow focuses on data visualization and export capabilities. It reads data from Excel files, performs aggregations and lookups, creates bar and pie charts, and exports results back to Excel spreadsheets.
+
+### 3. Audit Compliance Check for AP Invoices
+This workflow demonstrates data preprocessing and rule-based compliance checking for accounts payable (AP) invoices. It reads invoice data, performs grouping, filtering, and string manipulations to identify potential compliance issues, and concatenates results for reporting.
+
+### 4. Compare Regression Techniques for House Price Prediction
+This workflow compares different regression algorithms for predicting house prices. It preprocesses data, trains multiple models (Linear Regression, Decision Trees, Random Forest, XGBoost), and evaluates their performance using various metrics.
+
+
+## 📊 Datasets
+
+The repository includes several example datasets used in the workflows:
+- `ap_invoices.csv`: Accounts payable invoice data
+- `knime_audit_compliance_AP_invoices.csv`: Processed AP invoice data
+- `house_prices.csv` & `house_prices_real.csv`: House price prediction data
+- `regression-technique-prediction.csv`: Regression model comparison results
+- `AlignedData.csv`, `AmesHousing_simple.csv`, `heart.csv`, `Iris.csv`, `mtcars.csv`: General ML datasets
+
+---
+
+*Note: Workflows use the KNIME Analytics Platform (free version) and include example datasets for immediate execution.
